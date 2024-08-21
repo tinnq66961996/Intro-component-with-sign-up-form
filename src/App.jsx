@@ -1,5 +1,5 @@
 import React from 'react';
-import Text from './components/text';
+import Text from './components/Text.jsx';
 import Form from './components/Form';
 function App() {
   return (

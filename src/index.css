@@ -1,0 +1,33 @@
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  padding-left: 30rem;
+  padding-right: 30rem;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--pink);
+  background-image: url(./assets/images/bg-intro-desktop.png);
+  background-size: cover;
+}
+
+:root {
+  --pink: #ff7979;
+  --green: #38cc8b;
+  --purple: #5e54a4;
+  --black: #3d3b48;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
